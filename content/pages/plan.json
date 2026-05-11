@@ -99,7 +99,7 @@
       {
         "name": "Bi-Annual",
         "price": "$50",
-        "period": "per cleaning",
+        "period": "off per cleaning",
         "description": "",
         "features": "7 Day Rain Guarantee\n",
         "exclusions": "FREE Protective Nanocoat\nFREE Screen Cleaning",
@@ -108,7 +108,7 @@
       {
         "name": "Quarterly",
         "price": "$100",
-        "period": "per cleaning",
+        "period": "off per cleaning",
         "description": "",
         "features": "7 Day Rain Guarantee\nFREE Protective Nanocoat\nFREE Screen Cleaning",
         "exclusions": "",
@@ -117,7 +117,7 @@
       {
         "name": "Tri-Annual",
         "price": "$75",
-        "period": "per cleaning",
+        "period": "off per cleaning",
         "description": "",
         "features": "7 Day Rain Guarantee\nFREE Protective Nanocoat",
         "exclusions": "FREE Screen Cleaning",
