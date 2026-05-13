@@ -105,6 +105,8 @@ export default function Pricing({ content }: PricingProps) {
                   {(() => {
                     const exclusions = Array.isArray(plan.exclusions)
                       ? plan.exclusions
+                          .map((e: string) => e.trim())
+                          .filter((e: string) => e)
                       : (plan.exclusions || '').split('\n').filter((e: string) => e.trim());
                     
                     return exclusions.map((exclusion: string, exclusionIndex: number) => (
