@@ -2,22 +2,22 @@
   "showContactInfo": true,
   "embedForm": {
     "enabled": true,
-    "url": "https://forms.getrotor.com/f/1qwj0dkp",
-    "title": "Contact Us",
+    "url": "https://forms.getrotor.com/f/961yhwjl/",
+    "title": "Contactez-nous",
     "zoom": 80
   },
   "standardForm": {
     "enabled": true,
-    "title": "Send Us a Message",
-    "submitText": "Send Message"
+    "title": "Envoyez-nous un message",
+    "submitText": "Envoyer"
   },
   "businessHours": {
-    "monday": "9:00 AM - 9:00 PM",
-    "tuesday": "9:00 AM - 9:00 PM",
-    "wednesday": "9:00 AM - 9:00 PM",
-    "thursday": "9:00 AM - 9:00 PM",
-    "friday": "9:00 AM - 9:00 PM",
-    "saturday": "9:00 AM - 9:00 PM",
-    "sunday": "12:00 PM - 9:00 PM"
+    "lundi": "9:00 - 21:00",
+    "mardi": "9:00 - 21:00",
+    "mercredi": "9:00 - 21:00",
+    "jeudi": "9:00 - 21:00",
+    "vendredi": "9:00 - 21:00",
+    "samedi": "9:00 - 21:00",
+    "dimanche": "12:00 - 21:00"
   }
 }

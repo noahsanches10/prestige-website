@@ -1,18 +1,18 @@
 {
   "hero": {
-    "title": "About Us",
+    "title": "A propos",
     "subtitle": "",
     "cta": {
       "primary": {
         "enabled": false,
-        "text": "Get Free Quote",
+        "text": "Soumission gratuite",
         "link": "/contact",
         "color": "accent",
         "textColor": "primary"
       },
       "secondary": {
         "enabled": false,
-        "text": "Contact Us",
+        "text": "Contactez-nous",
         "link": "/contact",
         "color": "outline",
         "textColor": "primary"
@@ -21,57 +21,57 @@
     "enabled": false
   },
   "story": {
-    "title": "Our Story",
+    "title": "Notre histoire",
     "content": [
-      "Wallops Cleaning Services was founded with a simple mission: to provide East Tennessee with professional, reliable cleaning solutions that homeowners can trust. We understand that your home is your investment, and keeping it clean and well-maintained is a priority.",
-      "What started as a commitment to exceptional service has grown into a trusted name throughout Vonore, Maryville, Knoxville, Loudon, Madisonville, and Tellico Village. We've built our reputation on hard work, attention to detail, and genuine care for our customers' properties.",
-      "Every member of our team is trained to deliver professional results while treating your home with respect. Whether it's crystal-clear windows, pressure-washed driveways, clean gutters, or festive holiday lighting, we bring the same dedication to every job. Wallops Cleaning Services isn't just about cleaning—it's about building lasting relationships with our neighbors and customers throughout East Tennessee."
+      "Prestige Vitre a ete creee avec une mission simple: offrir au Quebec un service de nettoyage de vitres et d'exterieur fiable, professionnel et accessible.",
+      "Nous savons qu'une propriete bien entretenue protege votre investissement et met en valeur votre milieu de vie. C'est pourquoi nous mettons la qualite, la ponctualite et le souci du detail au coeur de chaque intervention.",
+      "Notre equipe traite chaque residence avec respect et rigueur. Que ce soit pour des vitres etincelantes, un lavage exterieur, le nettoyage des gouttieres ou des services saisonniers, vous pouvez compter sur Prestige Vitre."
     ],
     "stats": [
       {
         "number": "500+",
-        "label": "East Tennessee Properties Served"
+        "label": "Proprietes desservies"
       },
       {
         "number": "5+",
-        "label": "Years of Excellence"
+        "label": "Annees d'experience"
       },
       {
         "number": "100%",
-        "label": "Satisfaction Guarantee"
+        "label": "Satisfaction client"
       }
     ],
     "image": "/uploads/about-1767063257075.jpeg"
   },
   "values": {
-    "title": "Our Core Values",
-    "subtitle": "We're committed to excellence in every aspect of our professional cleaning and maintenance services",
+    "title": "Nos valeurs",
+    "subtitle": "Nous priorisons l'excellence, la securite et la satisfaction a chaque visite",
     "items": [
       {
         "icon": "shield",
-        "title": "Licensed & Insured",
-        "description": "Fully licensed professionals with comprehensive insurance coverage for complete peace of mind on all our cleaning services."
+        "title": "Service professionnel",
+        "description": "Des methodes efficaces et un travail soigne pour des resultats constants."
       },
       {
         "icon": "clock",
-        "title": "Reliable Service",
-        "description": "Punctual, professional service with flexible scheduling to fit your busy lifestyle. We arrive on time and deliver results that exceed expectations."
+        "title": "Fiabilite",
+        "description": "Des rendez-vous respectes et un service adapte a votre horaire."
       },
       {
         "icon": "award",
-        "title": "Satisfaction Guarantee",
-        "description": "100% satisfaction guarantee on all our cleaning services. If you're not happy, we'll make it right."
+        "title": "Qualite garantie",
+        "description": "Nous visons votre satisfaction complete, sans compromis."
       },
       {
         "icon": "users",
-        "title": "Community Focused",
-        "description": "Locally owned and deeply rooted in the East Tennessee community. We're invested in your satisfaction and in serving our neighbors with excellence."
+        "title": "Proximite",
+        "description": "Une entreprise locale qui comprend les besoins de sa clientele en Outaouais."
       }
     ]
   },
   "team": {
-    "title": "Meet Our Team",
-    "subtitle": "Professional cleaning service specialists dedicated to serving the East Tennessee community",
+    "title": "Notre equipe",
+    "subtitle": "Des specialistes dedies a un service impeccable",
     "members": []
   }
 }

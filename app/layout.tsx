@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: siteConfig.siteName,
     description: siteConfig.tagline,
-    keywords: 'home services, plumbing, electrical, HVAC, handyman',
+    keywords: 'nettoyage de vitres, lavage exterieur, nettoyage residentiel, entretien, Quebec',
     openGraph: {
       title: siteConfig.siteName,
       description: siteConfig.tagline,
@@ -58,7 +58,7 @@ export default function RootLayout({
     : inter.className;
 
   return (
-    <html lang="en">
+    <html lang="fr-CA">
       <head>
         {siteConfig.favicon && (
           <link rel="icon" href={siteConfig.favicon} />

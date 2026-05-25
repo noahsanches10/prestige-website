@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Wallops Cleaning Service Plans",
+    "title": "Forfaits d'entretien Prestige Vitre",
     "subtitle": "",
     "image": "",
     "videoUrl": "",
@@ -8,15 +8,15 @@
     "cta": {
       "primary": {
         "enabled": true,
-        "text": "Get Free Quote",
+        "text": "Soumission gratuite",
         "link": "/contact",
         "color": "primary",
         "textColor": "white"
       },
       "secondary": {
         "enabled": true,
-        "text": "Call Now",
-        "link": "tel:(865) 336-0700",
+        "text": "Appeler maintenant",
+        "link": "tel:(819) 674-3272",
         "color": "white",
         "textColor": "primary"
       }
@@ -24,108 +24,108 @@
   },
   "process": {
     "enabled": true,
-    "title": "How It Works",
-    "description": "Enjoy hassle-free, recurring cleaning services that keep your property beautiful year-round!",
+    "title": "Comment ca fonctionne",
+    "description": "Profitez d'un entretien recurrent simple et efficace toute l'annee.",
     "image": "",
     "steps": [
       {
         "step": 1,
-        "title": "Professional Assessment",
-        "description": "We evaluate your property and discuss your specific cleaning needs and goals."
+        "title": "Evaluation",
+        "description": "Nous analysons votre propriete et vos besoins reels."
       },
       {
         "step": 2,
-        "title": "Customized Plan",
-        "description": "We create a service schedule tailored to your property and maintenance requirements."
+        "title": "Plan personnalise",
+        "description": "Nous etablissons une frequence adaptee a votre situation."
       },
       {
         "step": 3,
-        "title": "Reliable Service",
-        "description": "Our team delivers consistent, high-quality cleaning on your scheduled dates."
+        "title": "Execution rigoureuse",
+        "description": "Notre equipe intervient selon l'horaire convenu."
       },
       {
         "step": 4,
-        "title": "Ongoing Support",
-        "description": "We provide regular maintenance to keep your property looking pristine year-round."
+        "title": "Suivi continu",
+        "description": "Nous ajustons le service au fil des saisons."
       }
     ]
   },
   "benefits": {
     "enabled": true,
-    "title": "Benefits of Regular Maintenance Plans",
+    "title": "Avantages des forfaits d'entretien",
     "description": "",
     "items": [
       {
-        "title": "Long-Lasting Protection",
-        "description": "Treatments that keep glass cleaner between visits.",
+        "title": "Protection durable",
+        "description": "Un entretien regulier aide a preserver l'etat de vos surfaces.",
         "icon": "shield"
       },
       {
-        "title": "Hassle-Free Scheduling",
-        "description": "Flexible service plans that work around your calendar.",
+        "title": "Horaire simple",
+        "description": "Des passages planifies selon votre disponibilite.",
         "icon": "clock"
       },
       {
-        "title": "Guaranteed Peace of Mind",
-        "description": "If the birds or rain strikes, we’ve got you covered.",
+        "title": "Tranquillite d'esprit",
+        "description": "Un service constant avec une qualite sur laquelle compter.",
         "icon": "thumbsup"
       }
     ]
   },
   "guarantee": {
     "enabled": false,
-    "title": "Our Guarantee",
-    "description": "We stand behind our work",
+    "title": "Notre garantie",
+    "description": "Nous assumons la qualite de notre travail",
     "items": [
       {
-        "title": "100% Satisfaction",
-        "description": "If you're not happy, we'll make it right"
+        "title": "Satisfaction 100%",
+        "description": "Si vous n'etes pas satisfait, nous corrigeons la situation"
       },
       {
-        "title": "Quality Work",
-        "description": "Professional service every time"
+        "title": "Travail professionnel",
+        "description": "Un service soigne a chaque intervention"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Get Started?",
-    "description": "Contact us today for a free consultation",
-    "buttonText": "Get Free Quote",
+    "title": "Pret a commencer?",
+    "description": "Contactez-nous pour une consultation gratuite",
+    "buttonText": "Soumission gratuite",
     "buttonLink": "/contact"
   },
   "pricing": {
     "enabled": true,
     "plans": [
       {
-        "name": "Bi-Annual",
+        "name": "Semestriel",
         "price": "$50",
-        "period": "off per service",
+        "period": "de rabais par service",
         "description": "",
-        "features": "7 Day Rain Guarantee\n",
-        "exclusions": "FREE RainBlock Tech\nFREE Touchups",
+        "features": "Garantie pluie 7 jours\n",
+        "exclusions": "Traitement RainBlock gratuit\nRetouches gratuites",
         "popular": false
       },
       {
-        "name": "Quarterly",
+        "name": "Trimestriel",
         "price": "$100",
-        "period": "off per service",
+        "period": "de rabais par service",
         "description": "",
-        "features": "7 Day Rain Guarantee\nFREE RainBlock Tech\nFREE Touchups",
+        "features": "Garantie pluie 7 jours\nTraitement RainBlock gratuit\nRetouches gratuites",
         "exclusions": "",
         "popular": true
       },
       {
-        "name": "Monthly",
+        "name": "Mensuel",
         "price": "$150",
-        "period": "off per service",
+        "period": "de rabais par service",
         "description": "",
-        "features": "7 Day Rain Guarantee\nFREE RainBlock Tech\nFREE Touchups",
+        "features": "Garantie pluie 7 jours\nTraitement RainBlock gratuit\nRetouches gratuites",
         "exclusions": "",
         "popular": false
       }
     ],
     "displayStyle": "cards",
-    "title": "Flexible Plans For Your Needs",
+    "title": "Forfaits flexibles selon vos besoins",
     "subtitle": ""
   },
   "sectionOrder": [

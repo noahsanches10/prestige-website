@@ -12,7 +12,7 @@ interface BlogContentProps {
 
 export default function BlogContent({ post, servicesConfig }: BlogContentProps) {
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
+    return new Date(dateString).toLocaleDateString('fr-CA', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -29,7 +29,7 @@ export default function BlogContent({ post, servicesConfig }: BlogContentProps) 
           <Button variant="ghost" asChild className="group">
             <Link href="/blog">
               <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform" />
-              Back to Blog
+              Retour au blogue
             </Link>
           </Button>
         </div>
@@ -52,7 +52,7 @@ export default function BlogContent({ post, servicesConfig }: BlogContentProps) 
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="h-5 w-5" />
-                <span>{estimatedReadTime} min read</span>
+                <span>{estimatedReadTime} min de lecture</span>
               </div>
             </div>
 

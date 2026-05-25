@@ -74,21 +74,21 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     const service: Service | undefined = servicesConfig.services?.find((s: any) => s.slug === resolvedParams.slug);
 
     if (!service) {
-      return { title: 'Service Not Found' };
+      return { title: 'Service introuvable' };
     }
 
     return {
-      title: `${service.title} Services | ${siteConfig.siteName}`,
+      title: `${service.title} | ${siteConfig.siteName}`,
       description: service.longDescription || service.description,
       openGraph: {
-        title: `${service.title} Services`,
+        title: `${service.title} | ${siteConfig.siteName}`,
         description: service.longDescription || service.description,
         images: service.contentImage ? [{ url: service.contentImage }] : [],
       },
     };
   } catch {
     return {
-      title: 'Service Not Found',
+      title: 'Service introuvable',
     };
   }
 }
@@ -187,7 +187,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
           <section className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our {service.title} Services?</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Pourquoi choisir notre service de {service.title}?</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -214,7 +214,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
           <section className="py-16 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">Other Services We Offer</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Autres services offerts</h2>
               </div>
 
               <div className="flex flex-wrap justify-center gap-8">
@@ -245,7 +245,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         asChild
                       >
                         <Link href={`/services/${otherService.slug}`}>
-                          Learn More
+                          En savoir plus
                           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                         </Link>
                       </Button>

@@ -187,9 +187,9 @@ export default function Footer({ siteConfig, navigation }: FooterProps) {
             )}
           </div>
 
-          {/* Quick Links */}
+            {/* Liens rapides */}
           <div>
-            <h3 className={`font-semibold text-lg mb-4 ${getTextClasses()}`}>Quick Links</h3>
+            <h3 className={`font-semibold text-lg mb-4 ${getTextClasses()}`}>Liens rapides</h3>
             <nav className="space-y-2">
               {navigation.footer.map((item: any) => (
                 <Link
@@ -203,9 +203,9 @@ export default function Footer({ siteConfig, navigation }: FooterProps) {
             </nav>
           </div>
 
-          {/* Service Areas */}
+          {/* Zones desservies */}
           <div>
-            <h3 className={`font-semibold text-lg mb-4 ${getTextClasses()}`}>Service Areas</h3>
+            <h3 className={`font-semibold text-lg mb-4 ${getTextClasses()}`}>Zones desservies</h3>
             <ul className="space-y-2">
               {siteConfig.serviceAreas.map((area: string) => (
                 <li key={area} className={getServiceAreasTextClasses()}>
@@ -219,7 +219,7 @@ export default function Footer({ siteConfig, navigation }: FooterProps) {
         {/* Bottom Section */}
         <div className="mt-8 pt-8 text-center">
           <p className={`${getCopyrightTextClasses()} text-sm`}>
-            © {currentYear} {siteConfig.siteName}. All rights reserved.
+            © {currentYear} {siteConfig.siteName}. Tous droits reserves.
           </p>
         </div>
       </div>

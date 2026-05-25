@@ -1,33 +1,33 @@
 {
   "hero": {
-    "title": "Wallops Cleaning Services",
-    "subtitle": "The best premium cleaning service in East Tennessee",
+    "title": "Prestige Vitre",
+    "subtitle": "Votre reference en nettoyage de vitres et d'exterieur en Outaouais",
     "image": "",
-    "ctaText": "Get Free Estimate",
+    "ctaText": "Soumission gratuite",
     "ctaLink": "/contact",
     "cta": {
       "primary": {
-        "text": "Call Now",
-        "link": "tel:(865) 336-0700",
+        "text": "Appeler maintenant",
+        "link": "tel:(819) 674-3272",
         "enabled": true,
         "color": "primary",
         "textColor": "white"
       },
       "secondary": {
-        "text": "Get Free Estimate",
+        "text": "Soumission gratuite",
         "link": "/contact",
-        "enabled": false,
+        "enabled": true,
         "textColor": "primary",
         "color": "white"
       }
     },
     "trustIndicators": [
       {
-        "text": "100% Satisfaction Guarantee",
+        "text": "Garantie satisfaction 100%",
         "enabled": true
       },
       {
-        "text": "Eco-Friendly Solutions",
+        "text": "Service fiable et professionnel",
         "enabled": true
       }
     ]
@@ -43,7 +43,7 @@
     ],
     "services": {
       "enabled": true,
-      "title": "Our Services",
+      "title": "Nos services",
       "subtitle": "",
       "showSection": true,
       "hiddenServices": [],
@@ -51,52 +51,52 @@
     },
     "whyChooseUs": {
       "enabled": true,
-      "title": "Why Choose Us",
+      "title": "Pourquoi choisir Prestige Vitre",
       "subtitle": "",
       "background": "secondary-light",
       "items": [
         {
           "icon": "award",
-          "title": "Locally Owned, Community Trusted",
-          "description": "Wallops Cleaning Services has been serving East Tennessee with dedication and pride, building trust with neighbors through reliable and friendly service."
+          "title": "Entreprise locale de confiance",
+          "description": "Nous desservons la region avec fierte en offrant un service courtois, constant et soigneux."
         },
         {
           "icon": "droplets",
-          "title": "Professional Results, Every Time",
-          "description": "Our skilled team delivers premium cleaning services for windows, pressure washing, gutters, and holiday lighting with precision and care."
+          "title": "Resultats impeccables",
+          "description": "Vitres, lavage exterieur, gouttieres et entretien saisonnier: chaque intervention est faite avec rigueur."
         },
         {
           "icon": "users",
-          "title": "Customer-First Approach",
-          "description": "We prioritize your satisfaction by offering tailored solutions: clear communication, precise assessments, and no shortcuts."
+          "title": "Approche centree sur le client",
+          "description": "Evaluation claire, communication simple et service adapte a vos besoins reels."
         }
       ]
     },
     "testimonials": {
-      "enabled": true,
-      "title": "What Your Neighbors Say About Us",
+      "enabled": false,
+      "title": "Ce que disent nos clients",
       "subtitle": "",
       "background": "white",
       "items": [
         {
-          "name": "Jennifer Walsh",
-          "location": "Logan",
+          "name": "Sophie Tremblay",
+          "location": "Gatineau",
           "rating": 5,
-          "text": "Amazing window cleaning service! My windows have never been cleaner. The team was professional and efficient.",
+          "text": "Service impeccable. Les vitres etaient parfaites et l'equipe etait tres professionnelle.",
           "avatar": ""
         },
         {
-          "name": "Robert Chen",
-          "location": "Hyrum",
+          "name": "Marc Gagnon",
+          "location": "Aylmer",
           "rating": 5,
-          "text": "The house washing service transformed our home's exterior. It looks like new construction again!",
+          "text": "Excellent travail sur l'exterieur de la maison. Le resultat est vraiment impressionnant.",
           "avatar": ""
         },
         {
-          "name": "Maria Rodriguez",
-          "location": "Smithfield",
+          "name": "Isabelle Roy",
+          "location": "Chelsea",
           "rating": 5,
-          "text": "Professional solar panel cleaning service. They were thorough and our panels are producing more energy than ever. Highly recommend!",
+          "text": "Ponctuels, polis et efficaces. Je recommande Prestige Vitre sans hesitation.",
           "avatar": ""
         }
       ],
@@ -106,8 +106,8 @@
       "iframeHeight": "275px"
     },
     "gallery": {
-      "enabled": true,
-      "title": "See Us In Action",
+      "enabled": false,
+      "title": "Nos resultats en images",
       "subtitle": "",
       "background": "white",
       "items": [
@@ -124,13 +124,13 @@
           "description": ""
         },
         {
-          "title": "BEFORE",
+          "title": "AVANT",
           "beforeImage": "/uploads/gallery-1766559045613.png",
           "afterImage": "",
           "description": ""
         },
         {
-          "title": "AFTER",
+          "title": "APRES",
           "beforeImage": "/uploads/gallery-1766559058474.png",
           "afterImage": "",
           "description": ""
@@ -148,13 +148,13 @@
           "description": ""
         },
         {
-          "title": "BEFORE",
+          "title": "AVANT",
           "beforeImage": "/uploads/gallery-1766559106722.png",
           "afterImage": "",
           "description": ""
         },
         {
-          "title": "AFTER",
+          "title": "APRES",
           "beforeImage": "/uploads/gallery-1766559118465.png",
           "afterImage": "",
           "description": ""
@@ -177,29 +177,29 @@
     },
     "faq": {
       "enabled": true,
-      "title": "Frequently Asked Questions",
+      "title": "Questions frequentes",
       "subtitle": "",
-      "background": "secondary-light",
+      "background": "white",
       "items": [
         {
-          "question": "How often should I have my windows professionally cleaned?",
-          "answer": "For East Tennessee homes, we recommend professional window cleaning every 3-6 months. This ensures your windows stay clean and protected year-round!"
+          "question": "A quelle frequence faut-il nettoyer les vitres?",
+          "answer": "Pour la plupart des residences au Quebec, un nettoyage professionnel aux 3 a 6 mois est ideal pour conserver une visibilite optimale."
         },
         {
-          "question": "What surfaces can pressure washing clean?",
-          "answer": "We can safely pressure wash driveways, sidewalks, decks, patios, siding, fences, and more. We adjust our equipment and techniques based on the surface to prevent damage."
+          "question": "Quelles surfaces peuvent etre lavees sous pression?",
+          "answer": "Nous adaptons la methode selon la surface: entree, trottoirs, patios, revetements et autres zones exterieures."
         },
         {
-          "question": "Do you clean gutters?",
-          "answer": "Yes! Gutter cleaning is one of our core services. We safely remove debris and ensure proper water flow to protect your home's foundation."
+          "question": "Offrez-vous le nettoyage de gouttieres?",
+          "answer": "Oui. Nous retirons les debris et verifions l'ecoulement pour aider a proteger votre propriete."
         },
         {
-          "question": "Do you install holiday lighting?",
-          "answer": "Absolutely! We offer professional holiday lighting installation to make your home festive and beautiful. We handle design, installation, and takedown."
+          "question": "Proposez-vous un service saisonnier d'eclairage?",
+          "answer": "Oui, nous pouvons vous aider avec l'installation et le retrait d'eclairages saisonniers."
         },
         {
-          "question": "Do you have a satisfaction guarantee?",
-          "answer": "Yes! We stand behind our work with a 100% satisfaction guarantee. If you're not completely happy with our service, we'll make it right at no additional charge."
+          "question": "Y a-t-il une garantie de satisfaction?",
+          "answer": "Absolument. Si le resultat ne correspond pas a vos attentes, nous intervenons pour corriger la situation."
         }
       ]
     },
@@ -207,40 +207,40 @@
       "enabled": true,
       "plans": [
         {
-          "name": "Bi-Annual",
+          "name": "Semestriel",
           "price": "$50",
-          "period": "off per service",
+          "period": "de rabais par service",
           "description": "",
           "features": [
-            "7 Day Rain Guarantee"
+            "Garantie pluie 7 jours"
           ],
           "popular": false,
           "exclusions": [
-            "FREE RainBlock Tech",
-            "FREE Touchups"
+            "Traitement RainBlock gratuit",
+            "Retouches gratuites"
           ]
         },
         {
-          "name": "Quarterly",
+          "name": "Trimestriel",
           "price": "$100",
-          "period": "off per service",
+          "period": "de rabais par service",
           "description": "",
           "features": [
-            "7 Day Rain Guarantee",
-            "FREE RainBlock Tech",
-            "FREE Touchups"
+            "Garantie pluie 7 jours",
+            "Traitement RainBlock gratuit",
+            "Retouches gratuites"
           ],
           "popular": true
         },
         {
-          "name": "Monthly",
+          "name": "Mensuel",
           "price": "$150",
-          "period": "off per service",
+          "period": "de rabais par service",
           "description": "",
           "features": [
-            "7 Day Rain Guarantee",
-            "FREE RainBlock Tech",
-            "FREE Touchups"
+            "Garantie pluie 7 jours",
+            "Traitement RainBlock gratuit",
+            "Retouches gratuites"
           ],
           "popular": false,
           "exclusions": [
@@ -249,7 +249,7 @@
         }
       ],
       "background": "secondary-light",
-      "title": "Save With Service Plans",
+      "title": "Economisez avec nos forfaits",
       "subtitle": ""
     }
   }

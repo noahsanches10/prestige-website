@@ -19,7 +19,7 @@ export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
   const [contactConfig, setContactConfig] = useState({
-    embedForm: { enabled: false, url: '', title: 'Contact Us', zoom: 100 },
+    embedForm: { enabled: false, url: '', title: 'Contactez-nous', zoom: 100 },
   });
 
   useEffect(() => {
@@ -48,7 +48,7 @@ export default function ContactForm() {
           frameBorder="0"
           className="absolute inset-0"
           style={{ zoom: `${contactConfig.embedForm.zoom}%` }}
-          title={contactConfig.embedForm.title || "Contact Form"}
+          title={contactConfig.embedForm.title || "Formulaire de contact"}
         />
       </div>
     );
@@ -57,7 +57,7 @@ export default function ContactForm() {
   // If no embedded form is configured, show a message
   return (
     <div className="text-center py-8">
-      <p className="text-gray-600">Please configure an embedded form in the admin panel to display the contact form.</p>
+      <p className="text-gray-600">Veuillez configurer un formulaire integre dans le panneau admin pour afficher le formulaire de contact.</p>
     </div>
   );
 }

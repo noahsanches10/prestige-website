@@ -103,46 +103,46 @@ export default async function PlanPage() {
   // Default content if no data exists
   const defaultContent: PlanContent = {
     hero: {
-      title: "Our Service Plan",
-      subtitle: "Comprehensive solutions tailored to your needs",
+      title: "Notre forfait d'entretien",
+      subtitle: "Des solutions adaptees a vos besoins",
       image: "",
       videoUrl: "",
       useVideo: false
     },
     process: {
       enabled: true,
-      title: "How It Works",
-      description: "Our simple process ensures you get the best service",
+      title: "Comment ca fonctionne",
+      description: "Un processus simple pour vous offrir un service de qualite",
       image: "",
       steps: [
-        { step: 1, title: "Consultation", description: "We discuss your needs and requirements" },
-        { step: 2, title: "Planning", description: "We create a customized plan for you" },
-        { step: 3, title: "Execution", description: "We deliver high-quality service" }
+        { step: 1, title: "Consultation", description: "Nous discutons de vos besoins" },
+        { step: 2, title: "Planification", description: "Nous preparons un plan personnalise" },
+        { step: 3, title: "Execution", description: "Nous livrons un service de qualite" }
       ]
     },
     benefits: {
       enabled: true,
-      title: "Why Choose Our Plan",
-      description: "Benefits you can count on",
+      title: "Pourquoi choisir notre forfait",
+      description: "Des avantages concrets",
       items: [
-        { title: "Professional Service", description: "Expert technicians with years of experience", icon: "shield" },
-        { title: "Quality Guarantee", description: "100% satisfaction guaranteed", icon: "check" },
-        { title: "Competitive Pricing", description: "Fair prices for premium service", icon: "dollar" }
+        { title: "Service professionnel", description: "Une equipe experimentee et rigoureuse", icon: "shield" },
+        { title: "Qualite garantie", description: "Satisfaction client prioritaire", icon: "check" },
+        { title: "Prix competitifs", description: "Un excellent rapport qualite-prix", icon: "dollar" }
       ]
     },
     guarantee: {
       enabled: true,
-      title: "Our Guarantee",
-      description: "We stand behind our work",
+      title: "Notre garantie",
+      description: "Nous assumons la qualite de notre travail",
       items: [
-        { title: "100% Satisfaction", description: "If you're not happy, we'll make it right" },
-        { title: "Quality Work", description: "Professional service every time" }
+        { title: "Satisfaction 100%", description: "Si vous n'etes pas satisfait, nous corrigeons la situation" },
+        { title: "Travail de qualite", description: "Un service professionnel a chaque visite" }
       ]
     },
     pricing: {
       enabled: false,
-      title: "Service Plans",
-      subtitle: "Choose the plan that works best for you",
+      title: "Forfaits d'entretien",
+      subtitle: "Choisissez le plan qui vous convient",
       displayStyle: "cards",
       plans: []
     },
@@ -327,7 +327,7 @@ export default async function PlanPage() {
                     )}
                     {plan.popular && (
                       <span className="mt-3 inline-block text-xs font-semibold bg-white/20 rounded-full px-3 py-1">
-                        Most Popular
+                        Le plus populaire
                       </span>
                     )}
                   </div>
@@ -389,7 +389,7 @@ export default async function PlanPage() {
                       asChild
                     >
                       <Link href="/contact">
-                        Get Started
+                        Commencer
                       </Link>
                     </Button>
                   </div>

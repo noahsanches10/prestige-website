@@ -29,10 +29,10 @@ export default async function BlogPage() {
         <div className="bg-gradient-to-br from-primary-light to-secondary-light py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Home Service Blog
+              Blogue Prestige Vitre
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert tips, guides, and insights to help you maintain and improve your home
+              Conseils pratiques, guides et astuces pour entretenir votre propriete au Quebec
             </p>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default async function BlogPage() {
           ) : (
             <div className="text-center py-16">
               <Calendar className="h-16 w-16 text-gray-300 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">No blog posts yet</h3>
-              <p className="text-gray-600">Check back soon for helpful home service tips and guides!</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Aucun article pour le moment</h3>
+              <p className="text-gray-600">Revenez bientot pour decouvrir nos conseils d'entretien.</p>
             </div>
           )}
         </div>

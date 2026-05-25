@@ -46,12 +46,12 @@ export default function Services({ content, servicesConfig, isHomePage = false }
 
   // Use saved title/subtitle from content.sections.services on the home page
   const sectionTitle = isHomePage
-    ? (homeServices?.title ?? 'Our Services') // use ?? so empty string stays empty if you want that
-    : (servicesConfig?.title ?? 'Our Services');
+    ? (homeServices?.title ?? 'Nos services') // use ?? so empty string stays empty if you want that
+    : (servicesConfig?.title ?? 'Nos services');
 
   const sectionSubtitle = isHomePage
-    ? (homeServices?.subtitle ?? 'Comprehensive home services')
-    : (servicesConfig?.subtitle ?? 'Professional home services delivered with expertise and care');
+    ? (homeServices?.subtitle ?? 'Des services complets pour votre propriete')
+    : (servicesConfig?.subtitle ?? 'Des services professionnels executes avec rigueur');
 
   // Determine grid columns based on number of services
   const getGridCols = (count: number) => {
@@ -119,7 +119,7 @@ export default function Services({ content, servicesConfig, isHomePage = false }
                       asChild
                     >
                       <Link href={serviceLink}>
-                        Learn More
+                        En savoir plus
                         <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </Button>

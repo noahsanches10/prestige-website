@@ -44,7 +44,7 @@ export default async function ContactPage() {
                         <Phone className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <p className="font-semibold text-gray-900">Phone</p>
+                        <p className="font-semibold text-gray-900">Telephone</p>
                         <a 
                           href={`tel:${siteConfig.contact.phone}`}
                           className="text-primary hover:underline"
@@ -78,7 +78,7 @@ export default async function ContactPage() {
                         <MapPin className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <p className="font-semibold text-gray-900">Address</p>
+                        <p className="font-semibold text-gray-900">Adresse</p>
                         <p className="text-gray-600">{siteConfig.contact.address}</p>
                       </div>
                     </div>
@@ -89,7 +89,7 @@ export default async function ContactPage() {
                       <Clock className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">Business Hours</p>
+                      <p className="font-semibold text-gray-900">Heures d'ouverture</p>
                       <div className="mt-2 space-y-1">
                         {contactContent.businessHours && Object.entries(contactContent.businessHours).map(([day, hours]) => (
                           <p key={day} className="text-gray-600 capitalize text-sm">
@@ -106,8 +106,8 @@ export default async function ContactPage() {
                   <div className="hidden lg:block py-8">
                     <div className="bg-primary-light rounded-lg p-6 text-center">
                       <CheckCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Ready to Get Started?</h3>
-                      <p className="text-gray-600">Fill out the form and we'll get back to you shortly!</p>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Pret a commencer?</h3>
+                      <p className="text-gray-600">Remplissez le formulaire et nous vous repondrons rapidement.</p>
                     </div>
                   </div>
                 )}
@@ -125,8 +125,8 @@ export default async function ContactPage() {
           {/* Show message if no form is configured */}
           {(!contactContent.embedForm?.enabled || !contactContent.embedForm?.url) && !contactContent.showContactInfo && (
             <div className="max-w-4xl mx-auto text-center py-16">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact Configuration Needed</h2>
-              <p className="text-gray-600">Please configure either the contact information section or an embedded form in the admin panel.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Configuration de contact requise</h2>
+              <p className="text-gray-600">Veuillez configurer les informations de contact ou un formulaire integre dans le panneau admin.</p>
             </div>
           )}
         </div>

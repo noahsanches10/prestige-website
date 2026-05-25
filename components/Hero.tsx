@@ -242,7 +242,7 @@ export default function Hero({ content, siteConfig, pageType = 'home' }: HeroPro
                   )}`}
                 >
                   <Link href={cta?.primary?.link || content.hero.ctaLink || '/contact'}>
-                    {cta?.primary?.text || content.hero.ctaText || 'Get Free Quote'}
+                    {cta?.primary?.text || content.hero.ctaText || 'Soumission gratuite'}
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
@@ -258,7 +258,7 @@ export default function Hero({ content, siteConfig, pageType = 'home' }: HeroPro
                   )}
                 >
                   <Link href={cta?.secondary?.link || '/contact'}>
-                    {cta?.secondary?.text || 'Contact Us'}
+                    {cta?.secondary?.text || 'Contactez-nous'}
                   </Link>
                 </Button>
               )}
@@ -300,7 +300,7 @@ export default function Hero({ content, siteConfig, pageType = 'home' }: HeroPro
                           src={content.hero.videoUrl}
                           className="w-full h-full"
                           allowFullScreen
-                          title="Hero Video"
+                          title="Video hero"
                         />
                       </div>
                     ) : (
@@ -317,7 +317,7 @@ export default function Hero({ content, siteConfig, pageType = 'home' }: HeroPro
                 ) : content.hero.image ? (
                   <Image
                     src={content.hero.image}
-                    alt="Professional home service technician"
+                    alt="Service professionnel Prestige Vitre"
                     width={600}
                     height={400}
                     className="rounded-2xl shadow-2xl object-cover"

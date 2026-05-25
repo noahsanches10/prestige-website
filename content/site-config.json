@@ -1,29 +1,29 @@
 {
-  "siteName": "Wallops Cleaning Services",
-  "tagline": "Professional Cleaning in Tennessee",
-  "logo": "/uploads/1765334379422.png",
+  "siteName": "Prestige Vitre",
+  "tagline": "Nettoyage de vitres professionnel au Quebec",
+  "logo": "/uploads/1779698437473.png",
   "brandColors": {
-    "primary": "#3A0CA3",
-    "secondary": "#00000",
-    "accent": "#737C7E"
+    "primary": "#26A9E0",
+    "secondary": "#0D1B1E",
+    "accent": "#746D75"
   },
   "headerStyle": "default",
   "footerStyle": "secondary",
   "contact": {
-    "phone": "(865) 336-0700",
-    "email": "",
+    "phone": "(819) 674-3272",
+    "email": "alexis.jac2004@gmail.com",
     "address": ""
   },
   "serviceAreas": [
-    "Vonore",
-    "Maryville",
-    "Knoxville",
-    "Loudon",
-    "Madisonville",
-    "Tellico Village"
+    "Gatineau",
+    "Aylmer",
+    "Hull",
+    "Chelsea",
+    "Cantley",
+    "Val-des-Monts"
   ],
   "socialMedia": {
-    "facebook": "https://www.facebook.com/WallopsServices",
+    "facebook": "",
     "instagram": "",
     "nextdoor": "",
     "google": ""
@@ -33,12 +33,12 @@
   "bannerLayout": "contained",
   "bannerStyle": "secondary",
   "ctaBanner": {
-    "title": "Ready for Professional Cleaning?",
-    "subtitle": "Contact Wallops Cleaning Services today for a free estimate and see the difference professional cleaning makes.",
-    "primaryText": "Get Free Estimate",
-    "secondaryText": "Call Now",
+    "title": "Besoin d'un service de nettoyage impeccable?",
+    "subtitle": "Contactez Prestige Vitre aujourd'hui pour une estimation gratuite et un service professionnel a la hauteur de vos attentes.",
+    "primaryText": "Soumission gratuite",
+    "secondaryText": "Appeler maintenant",
     "primaryLink": "/contact",
-    "secondaryLink": "tel:(865)336-0700",
+    "secondaryLink": "tel:(819)674-3272",
     "primaryEnabled": true,
     "primaryButtonColor": "white",
     "style": "primary",
@@ -59,11 +59,10 @@
   },
   "showLogoInFooter": false,
   "logoSize": 60,
-  "favicon": "/uploads/1765334387253.png",
+  "favicon": "/uploads/1779698452132.png",
   "footerTextColor": "white",
   "fontFamily": "poppins",
   "heroBackgrounds": {
-    "service-holiday-lighting": "/uploads/hero-background-1766557344124.jpeg",
     "service-gutter-cleaning": "/uploads/hero-background-1766557298849.jpg",
     "service-soft-washing": "/uploads/hero-background-1766557317981.png",
     "service-window-cleaning": "/uploads/hero-background-1766557258847.webp",
@@ -259,12 +258,6 @@
   "headerCtaTextColor": "white",
   "heroOverlayByPath": {
     "/uploads/hero-background-1758833060814.jpg": {
-      "overlayType": "dark",
-      "overlayOpacity": 50,
-      "overlayColor": "#000000",
-      "videoPosition": 50
-    },
-    "/uploads/hero-background-1766557344124.jpeg": {
       "overlayType": "dark",
       "overlayOpacity": 50,
       "overlayColor": "#000000",

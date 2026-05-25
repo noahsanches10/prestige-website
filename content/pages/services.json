@@ -1,13 +1,13 @@
 {
   "pageType": "multiple",
   "showAllServicesPage": false,
-  "title": "Our Cleaning Services",
+  "title": "Nos services de nettoyage",
   "subtitle": "",
   "displayType": "images",
   "services": [
     {
-      "title": "Window Cleaning",
-      "description": "Crystal clear windows inside and out using premium techniques",
+      "title": "Nettoyage de vitres",
+      "description": "Des vitres impeccables a l'interieur comme a l'exterieur",
       "icon": "droplets",
       "image": "/uploads/service-1758832593765.jpg",
       "slug": "window-cleaning",
@@ -16,29 +16,29 @@
       "showThumbnailInHero": false,
       "showContentInHero": false,
       "contentImage": "",
-      "longDescription": "Our premium window cleaning service delivers streak-free, crystal clear results using advanced purified water systems and professional-grade squeegees. We clean both interior and exterior surfaces, including screens and sills, ensuring your windows provide the clearest possible view while enhancing your home's curb appeal.",
+      "longDescription": "Notre service de nettoyage de vitres offre un fini sans traces grace a des techniques professionnelles et des outils adaptes. Nous nettoyons les surfaces interieures et exterieures, ainsi que les cadres et moustiquaires lorsque requis.",
       "benefits": [
         {
-          "title": "Purified Water System",
-          "description": "We use advanced water purification technology for spot-free, streak-free results."
+          "title": "Fini sans traces",
+          "description": "Des methodes de nettoyage efficaces pour une clarte maximale."
         },
         {
-          "title": "Interior & Exterior",
-          "description": "Complete window cleaning service including screens, sills, and frames."
+          "title": "Interieur et exterieur",
+          "description": "Un service complet pour un resultat uniforme sur toute la propriete."
         },
         {
-          "title": "Professional Equipment",
-          "description": "Commercial-grade squeegees and tools for superior cleaning results."
+          "title": "Equipement professionnel",
+          "description": "Des outils de qualite pour un travail securitaire et rapide."
         },
         {
-          "title": "Satisfaction Guarantee",
-          "description": "100% satisfaction guarantee - we'll return if you're not completely happy."
+          "title": "Satisfaction prioritaire",
+          "description": "Nous revenons au besoin pour assurer un resultat conforme a vos attentes."
         }
       ]
     },
     {
-      "title": "Soft Washing",
-      "description": "Gentle soft washing for roofs and houses, pressure washing for driveways",
+      "title": "Lavage exterieur doux",
+      "description": "Lavage adapte pour revetements, toitures et surfaces sensibles",
       "icon": "wrench",
       "image": "/uploads/service-1773523134993.jpg",
       "slug": "soft-washing",
@@ -47,29 +47,29 @@
       "showThumbnailInHero": false,
       "showContentInHero": false,
       "contentImage": "",
-      "longDescription": "Our comprehensive exterior cleaning service uses the right method for each surface. We use gentle soft washing techniques for roofs, siding, and delicate surfaces to safely remove dirt, mold, algae, and stains without damage. For durable surfaces like driveways, walkways, and patios, we use traditional pressure washing to effectively remove stubborn grime and restore surfaces to like-new condition.",
+      "longDescription": "Nous utilisons la bonne technique selon la surface. Le lavage doux est privilegie pour les zones delicatates, tandis que le lavage a pression est reserve aux surfaces robustes comme les allees et certains patios.",
       "benefits": [
         {
-          "title": "Surface-Specific Methods",
-          "description": "Gentle soft washing for roofs and siding, effective pressure washing for driveways and walkways - the right technique for every surface."
+          "title": "Approche par surface",
+          "description": "Chaque materiau recoit le traitement approprie pour eviter les dommages."
         },
         {
-          "title": "Eco-Friendly Solutions",
-          "description": "We use environmentally responsible cleaning solutions that are safe for your family, pets, and landscaping."
+          "title": "Solutions responsables",
+          "description": "Des produits de nettoyage adaptes a un environnement residentiel."
         },
         {
-          "title": "Protect Your Investment",
-          "description": "Soft washing preserves roof shingles and siding while pressure washing restores concrete and stone surfaces without damage."
+          "title": "Protection de votre investissement",
+          "description": "Un entretien regulier aide a prolonger la duree de vie des surfaces."
         },
         {
-          "title": "Complete Exterior Care",
-          "description": "From delicate roof cleaning to heavy-duty driveway restoration - we handle every aspect of your property's exterior."
+          "title": "Entretien exterieur complet",
+          "description": "Un service polyvalent pour redonner de l'eclat a votre propriete."
         }
       ]
     },
     {
-      "title": "Gutter Cleaning",
-      "description": "Professional gutter cleaning and maintenance to protect your home",
+      "title": "Nettoyage de gouttieres",
+      "description": "Retrait des debris et verification de l'ecoulement",
       "icon": "droplets",
       "image": "/uploads/service-1773523162411.jpg",
       "slug": "gutter-cleaning",
@@ -78,69 +78,38 @@
       "showThumbnailInHero": false,
       "showContentInHero": false,
       "contentImage": "",
-      "longDescription": "Clean gutters are essential for protecting your home from water damage. Our professional gutter cleaning service removes debris and ensures proper water drainage. We handle everything safely and efficiently, so you don't have to worry about climbing ladders or dealing with leaves and dirt.",
+      "longDescription": "Des gouttieres propres sont essentielles pour reduire les risques d'infiltration et de debordement. Nous retirons les feuilles et debris afin de retablir un ecoulement efficace.",
       "benefits": [
         {
-          "title": "Debris Removal",
-          "description": "Complete removal of leaves, twigs, and other debris that can clog gutters and cause water damage."
+          "title": "Retrait complet des debris",
+          "description": "Feuilles, branches et accumulations saisonnieres sont eliminees."
         },
         {
-          "title": "Safe Service",
-          "description": "Professional crews with proper safety equipment - no need for you to tackle this dangerous task."
+          "title": "Intervention securitaire",
+          "description": "Nous utilisons les bonnes pratiques pour travailler en hauteur."
         },
         {
-          "title": "Prevent Water Damage",
-          "description": "Properly flowing gutters protect your foundation, basement, and landscape from expensive water damage."
+          "title": "Prevention des dommages d'eau",
+          "description": "Un bon ecoulement protege les fondations et les amenagements."
         },
         {
-          "title": "Regular Maintenance",
-          "description": "Schedule seasonal cleanings to keep your gutters in top condition year-round."
-        }
-      ]
-    },
-    {
-      "title": "Holiday Lighting",
-      "description": "Professional holiday lighting design and installation for a festive home",
-      "icon": "award",
-      "image": "https://www.outdoorlights.com/sub/45921/images/Fishers-Indiana-Christmas-Lighting-Service.jpeg",
-      "slug": "holiday-lighting",
-      "enabled": true,
-      "showOtherServices": true,
-      "showThumbnailInHero": false,
-      "showContentInHero": false,
-      "contentImage": "",
-      "longDescription": "Make your home the highlight of the neighborhood with professional holiday lighting. Our team designs custom lighting displays tailored to your home's architecture and style. We handle all installation, and provide convenient removal when the season ends.",
-      "benefits": [
-        {
-          "title": "Custom Design",
-          "description": "We work with you to create a beautiful holiday light display that matches your style and preferences."
-        },
-        {
-          "title": "Professional Installation",
-          "description": "Expert installation with high-quality LED lights and commercial-grade wiring for safety and durability."
-        },
-        {
-          "title": "Hassle-Free Service",
-          "description": "We handle design, installation, and removal - you just enjoy the beautiful results and compliments from neighbors."
-        },
-        {
-          "title": "Energy Efficient",
-          "description": "We use LED lights that are energy-efficient and long-lasting, reducing your electricity costs."
+          "title": "Entretien saisonnier",
+          "description": "Planifiez des visites regulieres pour eviter les blocages."
         }
       ]
     }
   ],
   "heroCta": {
     "primary": {
-      "text": "Get Free Estimate",
+      "text": "Soumission gratuite",
       "link": "/contact",
       "enabled": true,
       "color": "primary",
       "textColor": "white"
     },
     "secondary": {
-      "text": "Call Now",
-      "link": "tel:(865) 336-0700",
+      "text": "Appeler maintenant",
+      "link": "tel:(819) 674-3272",
       "enabled": true,
       "color": "white"
     }

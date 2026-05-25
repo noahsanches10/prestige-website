@@ -134,10 +134,10 @@ export default function CtaBanner({ siteConfig }: CtaBannerProps) {
       <section className={getBannerClasses()} style={getBannerStyle()}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h2 className="text-3xl font-bold text-white mb-4">
-          {siteConfig.ctaBanner?.title || 'Ready to Get Started?'}
+          {siteConfig.ctaBanner?.title || 'Pret a commencer?'}
         </h2>
         <p className="text-white/90 text-lg mb-8">
-          {siteConfig.ctaBanner?.subtitle || 'Contact us today for a free consultation and quote.'}
+          {siteConfig.ctaBanner?.subtitle || 'Contactez-nous des aujourd\'hui pour une estimation gratuite.'}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           {siteConfig.ctaBanner?.primaryEnabled !== false && (
@@ -148,7 +148,7 @@ export default function CtaBanner({ siteConfig }: CtaBannerProps) {
               style={getPrimaryButtonStyle()}
             >
               <Link href={siteConfig.ctaBanner?.primaryLink || '/contact'}>
-                {siteConfig.ctaBanner?.primaryText || 'Get Free Quote'}
+                {siteConfig.ctaBanner?.primaryText || 'Soumission gratuite'}
               </Link>
             </Button>
           )}
@@ -161,7 +161,7 @@ export default function CtaBanner({ siteConfig }: CtaBannerProps) {
               style={getSecondaryButtonStyle()}
             >
               <Link href={siteConfig.ctaBanner?.secondaryLink || '/contact'}>
-                {siteConfig.ctaBanner?.secondaryText || 'Contact Us'}
+                {siteConfig.ctaBanner?.secondaryText || 'Contactez-nous'}
               </Link>
             </Button>
           )}

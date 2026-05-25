@@ -1,7 +1,7 @@
 {
   "header": [
     {
-      "label": "Service Plan",
+      "label": "Forfait d'entretien",
       "href": "/plan"
     },
     {
@@ -9,27 +9,27 @@
       "href": "/services"
     },
     {
-      "label": "About",
+      "label": "A propos",
       "href": "/about"
     }
   ],
   "cta": {
-    "label": "Get A Quote!",
+    "label": "Obtenir une soumission",
     "href": "/contact",
     "external": false,
     "openInNewTab": false
   },
   "footer": [
     {
-      "label": "Service Plan",
+      "label": "Forfait d'entretien",
       "href": "/plan"
     },
     {
-      "label": "About",
+      "label": "A propos",
       "href": "/about"
     },
     {
-      "label": "Blog",
+      "label": "Blogue",
       "href": "/blog"
     },
     {

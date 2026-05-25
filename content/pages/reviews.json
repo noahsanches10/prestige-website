@@ -2,7 +2,7 @@
   "sections": {
     "testimonials": {
       "enabled": true,
-      "title": "What Your Neighbors Say About Us",
+      "title": "Ce que disent nos clients",
       "subtitle": "",
       "background": "white",
       "useEmbed": true,
@@ -10,10 +10,10 @@
       "iframeHeight": "400px",
       "items": [
         {
-          "name": "John Doe",
-          "location": "Downtown",
+          "name": "Client",
+          "location": "Quebec",
           "rating": 5,
-          "text": "TESTING",
+          "text": "Excellent service",
           "avatar": ""
         }
       ]

@@ -56,7 +56,7 @@ export default function Testimonials({ content }: TestimonialsProps) {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              {testimonialsData.title || 'What Our Customers Say'}
+              {testimonialsData.title || 'Ce que disent nos clients'}
             </h2>
             {testimonialsData.subtitle && (
               <p className="text-xl text-gray-600">
@@ -77,7 +77,7 @@ export default function Testimonials({ content }: TestimonialsProps) {
                 }}
                 allowFullScreen
                 loading="lazy"
-                title="Customer Reviews"
+                title="Avis clients"
               />
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Testimonials({ content }: TestimonialsProps) {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-gray-600 mb-4">
-            Join hundreds of satisfied customers
+            Rejoignez nos nombreux clients satisfaits
           </p>
           <div className="flex items-center justify-center space-x-2">
             <div className="flex items-center space-x-1">
@@ -152,7 +152,7 @@ export default function Testimonials({ content }: TestimonialsProps) {
                 <Star key={i} className="h-5 w-5 fill-accent text-accent" />
               ))}
             </div>
-            <span className="text-gray-900 font-semibold">4.9/5 Average Rating</span>
+            <span className="text-gray-900 font-semibold">Note moyenne: 4.9/5</span>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ interface BlogCardProps {
 
 export default function BlogCard({ post }: BlogCardProps) {
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
+    return new Date(dateString).toLocaleDateString('fr-CA', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -48,7 +48,7 @@ export default function BlogCard({ post }: BlogCardProps) {
           href={`/blog/${post.slug}`}
           className="inline-flex items-center text-primary font-medium hover:text-primary/80 transition-colors mt-auto text-sm"
         >
-          Read More
+          Lire la suite
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Link>
       </CardContent>

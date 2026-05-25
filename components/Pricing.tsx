@@ -67,7 +67,7 @@ export default function Pricing({ content }: PricingProps) {
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <Badge className="bg-primary text-white px-4 py-1">
                     <Star className="h-4 w-4 mr-1" />
-                    Most Popular
+                    Le plus populaire
                   </Badge>
                 </div>
               )}
@@ -124,7 +124,7 @@ export default function Pricing({ content }: PricingProps) {
                   variant={plan.popular ? 'default' : 'outline'}
                 >
                   <Link href="/contact">
-                    Get Started
+                    Commencer
                   </Link>
                 </Button>
               </CardContent>

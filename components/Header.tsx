@@ -192,7 +192,7 @@ export default function Header({ siteConfig, navigation, servicesConfig, enabled
                               className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors"
                               data-services-dropdown="true"
                             >
-                              All Services
+                              Tous les services
                             </Link>
                             <div className="border-t border-gray-100 my-1" />
                           </>
@@ -272,7 +272,7 @@ export default function Header({ siteConfig, navigation, servicesConfig, enabled
                         className={`${getTextClasses()} transition-colors font-medium flex items-center space-x-1`}
                         onClick={() => setIsServicesOpen(!isServicesOpen)}
                       >
-                        <span>Services</span>
+                        <span>{item.label}</span>
                         <ChevronDown className={`h-4 w-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />
                       </button>
                       {isServicesOpen && (
@@ -287,7 +287,7 @@ export default function Header({ siteConfig, navigation, servicesConfig, enabled
                               onClick={() => setIsMenuOpen(false)}
                               data-services-dropdown="true"
                             >
-                              All Services
+                              Tous les services
                             </Link>
                           )}
                           {enabledServices.map((service: any) => (

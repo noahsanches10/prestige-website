@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     };
   } catch {
     return {
-      title: 'Post Not Found',
+      title: 'Article introuvable',
     };
   }
 }
